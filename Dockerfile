@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=2.3.2
+ENV VERSION=2.3.3
 
 RUN gem install acpc_dealer --version ${VERSION} --no-format-exec
 
